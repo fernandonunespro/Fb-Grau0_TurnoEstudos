@@ -1,0 +1,34 @@
+<!-- Programa para avaliar o turno Correspondente de Estudo -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Turno</title>
+
+</head>
+<body>
+    <div class= "general">
+            <form>
+                <h3>Turno de Estudo</h3>
+                <div>
+                    <label for="turno">Digite seu Turno (M-matutino/V-verpertino/N-noturno)</label>
+                    <input type="text" id="turno"/>
+                </div>
+
+                <div>
+                    <label for="resultado">Resultado</label>
+                    <input type="text" id="resultado"/>
+                </div>
+
+                <button onclick="studyTi(event)">Verificar</button>
+                <p id="verificar"></p>
+            </form>
+    </div>
+
+</body>
+</html>
